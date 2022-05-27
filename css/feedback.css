@@ -1,0 +1,70 @@
+/*--contact--*/
+.your-top {
+  border: 1px solid #ADADAD;
+}
+.contact-grids{
+	margin-top:4em;
+}
+.your-top:nth-child(2) {
+  margin: 2.5em 0;
+}
+.contact-grids i {
+  width: 35px;
+    height: 35px;
+    display: inline-block;
+    float: right;
+    border: 2px solid #062f3c;
+    color: #062f3c;
+    border-radius: 100px;
+    line-height: 2em;
+    text-align: center;
+    margin: 1% 2% 0;
+    font-size: 1em;
+}
+
+ .contact-grids input[type="text"], .grid-contact-in textarea {
+    background: none;
+    width: 89%;
+    outline: none;
+    border: none;
+    padding: 0.97em 0.8em;
+    font-size: 1em;
+    color: #999;
+    float: left;
+    border-right: 1px solid #ADADAD;
+}
+.grid-contact-in textarea{
+  border:1px solid #ADADAD;
+ resize:none;
+  margin-bottom:0.5em;
+  width:100%;
+   font-size: 1em;
+    padding: 0.8em;
+	    min-height: 168px;
+}
+.grid-contact-in input[type="submit"] {
+  width: 100%;
+  font-size: 1.1em;
+  background:  #062f3c;
+  padding: 0.7em 1em;
+  text-align: center;
+  color: #fff;
+  border: none;
+  outline: none;
+  margin: 0 auto;
+  -webkit-appearance: none;
+  font-weight: 700;
+  transition: 0.5s all;
+  -webkit-transition: 0.5s all;
+  -o-transition: 0.5s all;
+  -ms-transition: 0.5s all;
+  -moz-transition: 0.5s all;
+  cursor:pointer;
+}
+.grid-contact-in input[type="submit"]:hover {
+	background:#007ea3;
+}
+.contact {
+    background: #F6F9FD;
+    padding: 5em 0;
+}

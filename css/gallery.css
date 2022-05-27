@@ -1,0 +1,44 @@
+.gallery {
+	/*-- agileits --*/
+    padding: 5em 0;
+}
+.gallery-grids {
+    margin-top: 4em;
+}
+/*gallery*/
+.da-thumbs {
+	list-style: none;
+	position: relative;
+	margin: 0;
+	padding: 0;
+}
+.da-thumbs li {
+  float: left;
+  margin: 0.4%;
+  background:#fff;
+  padding: 8px;
+  position: relative;
+  width: 32.4%;
+}
+.da-thumbs li a,
+.da-thumbs li a img {
+  display: block;
+  position: relative;
+  width: 100%;
+}
+.da-thumbs li a {
+	overflow: hidden;
+}
+.da-thumbs li a div {
+  position: absolute;
+  background:none;
+  width: 100%;
+  height: 91%;
+}
+.da-thumbs li a div  h5 {
+  color: #fff;
+  font-size: 1.8em;
+  margin: 3.5em 0 0 0;
+  text-align: center;
+}
+/*gallery*/

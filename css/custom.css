@@ -1,0 +1,92 @@
+﻿.center-page 
+{
+    width:300px;
+    height:300px;
+    position:relative;
+    
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    
+    margin:auto;
+}
+.space-vert
+{
+    margin-top:10px;
+}
+.footer-pos
+{
+    width:auto;
+    height:auto;
+    position:absolute;
+    
+    top:650px;
+    bottom:0;
+    left:0;
+    right:0;
+    
+    margin:auto;
+ }
+/*custpackages.aspx*/
+.pkgname
+{
+    font-size:15px;
+    font-weight:500;
+    line-height:15px;
+}
+.pkgplace
+{
+    text-transform:uppercase;   
+}
+/*viewpkg.aspx*/
+.pkgNameView
+{
+    font-size:20px;
+    line-height:17px;
+    font-family:Segoe UI;
+    font-weight:600;
+    color:#696e80;
+}
+.pkgPriceView
+{
+    font-size:15px;
+    font-family:Segoe UI;
+    font-weight:400;
+    color:gray;
+}
+.pkgDaysView
+{
+    font-size:15px;
+    font-family:Segoe UI;
+    font-weight:400;
+    color:gray;
+}
+.divDet1
+{
+    border-bottom:1px dashed #696e80;
+    margin-bottom:20px;
+}
+.h5size
+{
+    font-weight:600;    
+}
+.mainButton{
+    border-radius: 3px;
+    outline: 0;
+    margin-top: 10px;
+    margin-bottom:20px;
+    font-size: 13px;
+    min-height: 22px;
+    padding: 10px 15px;
+    min-width: 108px;
+    font-weight: 500;
+    background-color: #FF5722;
+    border: 1px solid #FF5722;
+    color: #fff;
+}
+.ddl
+{
+    width:150px;
+    
+}
